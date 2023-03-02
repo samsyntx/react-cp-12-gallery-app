@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-body-container {
+  padding: 25px;
+}
+.gallery-main-image {
+  width: 100%;
+}
+.nature-photo-heading {
+  font-size: 20px;
+  color: #1e293b;
+  padding: 5px 0px 15px 0px;
+}
+.nature-photo-paragraph {
+  padding-bottom: 15px;
+  color: #64748b;
+  font-weight: 500;
+}
+.thumbnail-image-unorder-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media all and (min-width: 786px) {
+  .main-body-container {
+    width: 40%;
+  }
+}
