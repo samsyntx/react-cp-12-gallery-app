@@ -12,11 +12,9 @@ const ThumbnailItem = props => {
 
   return (
     <li className={`thumbnail-item ${applyActiveCSS}`}>
-      <img
-        onClick={clickedImageItem}
-        src={thumbnailUrl}
-        alt={thumbnailAltText}
-      />
+      <button type="button" className="button-style" onClick={clickedImageItem}>
+        <img src={thumbnailUrl} alt={thumbnailAltText} />
+      </button>
     </li>
   )
 }
