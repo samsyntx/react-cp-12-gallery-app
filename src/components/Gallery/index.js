@@ -108,6 +108,7 @@ class Gallery extends Component {
               changeDisplayImage={this.changeDisplayImage}
               key={eachItemDetail.id}
               imageDetail={eachItemDetail}
+              isActiveImage={eachItemDetail.id === displayImageId}
             />
           ))}
         </ul>
