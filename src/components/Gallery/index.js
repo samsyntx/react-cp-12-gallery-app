@@ -101,7 +101,7 @@ class Gallery extends Component {
           />
         </div>
         <h1 className="nature-photo-heading">Nature Photography</h1>
-        <p className="nature-photo-paragraph">Nature Photography by Shubham</p>
+        <p className="nature-photo-paragraph">Nature Photography by Rahul</p>
         <ul className="thumbnail-image-unorder-container">
           {imagesList.map(eachItemDetail => (
             <ThumbnailItem
