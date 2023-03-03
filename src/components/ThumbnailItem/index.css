@@ -1,3 +1,6 @@
+.button-style {
+  border: none;
+}
 .thumbnail-item {
   opacity: 0.5;
   padding: 10px;
